@@ -128,3 +128,9 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+#Strapi Configuration
+.strapi-updater.json
+
+#Junk MacOS Filesystem
+.DS_Store
