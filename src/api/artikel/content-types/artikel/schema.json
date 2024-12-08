@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "artikels",
+  "info": {
+    "singularName": "artikel",
+    "pluralName": "artikels",
+    "displayName": "Artikel"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Judul": {
+      "type": "string"
+    }
+  }
+}
