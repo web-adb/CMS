@@ -4,7 +4,8 @@
   "info": {
     "singularName": "artikel",
     "pluralName": "artikels",
-    "displayName": "Artikel"
+    "displayName": "Artikel",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,55 @@
   "attributes": {
     "Judul": {
       "type": "string"
+    },
+    "Thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Konten": {
+      "type": "customField",
+      "options": {
+        "preset": "default"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "Media_Konten": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "urlArtikel": {
+      "type": "uid",
+      "targetField": "Judul"
+    },
+    "Pengarang": {
+      "type": "string"
+    },
+    "Profile_Pengarang": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Deskripsi": {
+      "type": "text"
     }
   }
 }

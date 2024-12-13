@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "statistiks",
+  "info": {
+    "singularName": "statistik",
+    "pluralName": "statistiks",
+    "displayName": "Statistik"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nama_Kepala_Sekolah": {
+      "type": "string"
+    },
+    "Deskripsi_Text": {
+      "type": "text"
+    },
+    "Jumlah_Guru_Staff": {
+      "type": "string"
+    },
+    "Jumlah_Siswa": {
+      "type": "string"
+    },
+    "Jumlah_Rombongan_Belajar": {
+      "type": "string"
+    },
+    "Profile_Kepala_Sekolah": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

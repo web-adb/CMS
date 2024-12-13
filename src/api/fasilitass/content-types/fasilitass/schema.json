@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fasilitas",
+  "info": {
+    "singularName": "fasilitass",
+    "pluralName": "fasilitas",
+    "displayName": "Fasilitas"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nama_Tempat": {
+      "type": "string"
+    },
+    "Deskripsi": {
+      "type": "text"
+    },
+    "Gambar": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
